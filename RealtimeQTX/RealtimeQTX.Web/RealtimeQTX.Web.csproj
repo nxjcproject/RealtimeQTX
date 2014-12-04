@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EasyUIJsonParser">
+      <HintPath>..\..\Lib\EasyUIJsonParser.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -1562,10 +1565,109 @@
     <Content Include="lib\pllib\syntaxhighlighter\styles\shThemejqPlot.min.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.min.css" />
-    <Content Include="Web.config" />
+    <Content Include="UI_RealtimeQTX_EFC\AmmetersRealtimeValue.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom1CementMill.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom1Cogeneration.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom23CementMill.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom2Cogeneration.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom2KilnHead.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom2KilnTail.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom2RawMaterial.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom3KilnHead.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom3KilnTail.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoom3RawMaterial.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\ElectricRoomSubstation.aspx" />
+    <Content Include="UI_RealtimeQTX_EFC\js\common\ammeterPresenter.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI_RealtimeQTX_EFC\AmmetersRealtimeValue.aspx.cs">
+      <DependentUpon>AmmetersRealtimeValue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\AmmetersRealtimeValue.aspx.designer.cs">
+      <DependentUpon>AmmetersRealtimeValue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom1CementMill.aspx.cs">
+      <DependentUpon>ElectricRoom1CementMill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom1CementMill.aspx.designer.cs">
+      <DependentUpon>ElectricRoom1CementMill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom1Cogeneration.aspx.cs">
+      <DependentUpon>ElectricRoom1Cogeneration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom1Cogeneration.aspx.designer.cs">
+      <DependentUpon>ElectricRoom1Cogeneration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom23CementMill.aspx.cs">
+      <DependentUpon>ElectricRoom23CementMill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom23CementMill.aspx.designer.cs">
+      <DependentUpon>ElectricRoom23CementMill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2Cogeneration.aspx.cs">
+      <DependentUpon>ElectricRoom2Cogeneration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2Cogeneration.aspx.designer.cs">
+      <DependentUpon>ElectricRoom2Cogeneration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2KilnHead.aspx.cs">
+      <DependentUpon>ElectricRoom2KilnHead.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2KilnHead.aspx.designer.cs">
+      <DependentUpon>ElectricRoom2KilnHead.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2KilnTail.aspx.cs">
+      <DependentUpon>ElectricRoom2KilnTail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2KilnTail.aspx.designer.cs">
+      <DependentUpon>ElectricRoom2KilnTail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2RawMaterial.aspx.cs">
+      <DependentUpon>ElectricRoom2RawMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom2RawMaterial.aspx.designer.cs">
+      <DependentUpon>ElectricRoom2RawMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom3KilnHead.aspx.cs">
+      <DependentUpon>ElectricRoom3KilnHead.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom3KilnHead.aspx.designer.cs">
+      <DependentUpon>ElectricRoom3KilnHead.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom3KilnTail.aspx.cs">
+      <DependentUpon>ElectricRoom3KilnTail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom3KilnTail.aspx.designer.cs">
+      <DependentUpon>ElectricRoom3KilnTail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom3RawMaterial.aspx.cs">
+      <DependentUpon>ElectricRoom3RawMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoom3RawMaterial.aspx.designer.cs">
+      <DependentUpon>ElectricRoom3RawMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoomSubstation.aspx.cs">
+      <DependentUpon>ElectricRoomSubstation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_RealtimeQTX_EFC\ElectricRoomSubstation.aspx.designer.cs">
+      <DependentUpon>ElectricRoomSubstation.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib\pllib\syntaxhighlighter\LGPL-LICENSE" />
@@ -1578,7 +1680,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI_RealtimeQTX\" />
+    <ProjectReference Include="..\RealtimeQTX.Infrastructure\RealtimeQTX.Infrastructure.csproj">
+      <Project>{32b52167-b7ab-476c-8979-d0beafba374e}</Project>
+      <Name>RealtimeQTX.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RealtimeQTX.Service\RealtimeQTX.Service.csproj">
+      <Project>{58e323c8-f853-4e1b-b3e6-608b9cb6f0d1}</Project>
+      <Name>RealtimeQTX.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
