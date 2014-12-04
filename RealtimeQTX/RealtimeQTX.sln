@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeQTX.Web", "RealtimeQTX.Web\RealtimeQTX.Web.csproj", "{158E9BBF-4B77-49C4-ABAD-D21981A8682D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeQTX.Service", "RealtimeQTX.Service\RealtimeQTX.Service.csproj", "{58E323C8-F853-4E1B-B3E6-608B9CB6F0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeQTX.Infrastructure", "RealtimeQTX.Infrastructure\RealtimeQTX.Infrastructure.csproj", "{32B52167-B7AB-476C-8979-D0BEAFBA374E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{158E9BBF-4B77-49C4-ABAD-D21981A8682D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158E9BBF-4B77-49C4-ABAD-D21981A8682D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158E9BBF-4B77-49C4-ABAD-D21981A8682D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158E9BBF-4B77-49C4-ABAD-D21981A8682D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E323C8-F853-4E1B-B3E6-608B9CB6F0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E323C8-F853-4E1B-B3E6-608B9CB6F0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E323C8-F853-4E1B-B3E6-608B9CB6F0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E323C8-F853-4E1B-B3E6-608B9CB6F0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B52167-B7AB-476C-8979-D0BEAFBA374E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B52167-B7AB-476C-8979-D0BEAFBA374E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B52167-B7AB-476C-8979-D0BEAFBA374E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B52167-B7AB-476C-8979-D0BEAFBA374E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
